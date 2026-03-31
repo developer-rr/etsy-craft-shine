@@ -18,6 +18,7 @@ export default function Index() {
   return (
     <Layout>
       <SEO title="EtsyCraft — AI-Powered Tools for Etsy Sellers" description="Generate SEO-optimized Etsy listings and social media posts with AI. Free Chrome extensions with BYOK. Titles, descriptions, 13 tags, Instagram & Pinterest." path="/" />
+      <HeroSection />
       <TrustBar />
       <ProblemSection />
       <ProductsOverview />
