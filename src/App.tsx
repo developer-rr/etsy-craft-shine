@@ -20,9 +20,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/ai" element={<Placeholder title="EtsyCraft AI" />} />
-          <Route path="/social-engine" element={<Placeholder title="Social Engine" />} />
-          <Route path="/pricing" element={<Placeholder title="Pricing" />} />
+          <Route path="/ai" element={<AIProduct />} />
+          <Route path="/social-engine" element={<SocialEngine />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/about" element={<Placeholder title="About" />} />
           <Route path="/blog" element={<Placeholder title="Blog" />} />
           <Route path="/faq" element={<Placeholder title="FAQ" />} />
