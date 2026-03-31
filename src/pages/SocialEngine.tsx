@@ -63,6 +63,7 @@ const faqs = [
 export default function SocialEngine() {
   return (
     <Layout>
+      <SEO title="Social Engine — Etsy to Social Media in One Click" description="Turn Etsy listings into Instagram captions and Pinterest pins. AI-powered hashtags, direct publishing, and brand voice. Free Chrome extension." path="/social-engine" />
       {/* Hero */}
       <section className="bg-gradient-to-b from-card to-background py-16 md:py-24">
         <div className="container grid md:grid-cols-2 gap-12 items-center">

@@ -12,6 +12,7 @@ const ecosystem = [
 export default function About() {
   return (
     <Layout>
+      <SEO title="About EtsyCraft — AI Tools for Etsy Sellers" description="Built for Etsy sellers by a European team with 20+ years in IP and e-commerce. Learn about EtsyCraft's mission and ecosystem." path="/about" />
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4">Built for Etsy sellers, by people who understand IP</h1>

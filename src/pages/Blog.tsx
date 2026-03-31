@@ -13,6 +13,7 @@ const placeholders = [
 export default function Blog() {
   return (
     <Layout>
+      <SEO title="EtsyCraft Blog — Tips for Etsy Sellers" description="Expert tips on Etsy SEO, social media marketing, and growing your handmade shop. Guides, tutorials, and strategies." path="/blog" />
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4">EtsyCraft Blog — Tips for Etsy Sellers</h1>
