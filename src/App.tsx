@@ -3,8 +3,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Index from "./pages/Index.tsx";
-import NotFound from "./pages/NotFound.tsx";
+import Index from "./pages/Index";
+import NotFound from "./pages/NotFound";
+import Placeholder from "./pages/Placeholder";
 
 const queryClient = new QueryClient();
 
@@ -16,7 +17,22 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/ai" element={<Placeholder title="EtsyCraft AI" />} />
+          <Route path="/social-engine" element={<Placeholder title="Social Engine" />} />
+          <Route path="/pricing" element={<Placeholder title="Pricing" />} />
+          <Route path="/about" element={<Placeholder title="About" />} />
+          <Route path="/blog" element={<Placeholder title="Blog" />} />
+          <Route path="/faq" element={<Placeholder title="FAQ" />} />
+          <Route path="/contact" element={<Placeholder title="Contact" />} />
+          <Route path="/tools/etsy-tag-generator" element={<Placeholder title="Etsy Tag Generator" />} />
+          <Route path="/tools/etsy-description-generator" element={<Placeholder title="Etsy Description Generator" />} />
+          <Route path="/tools/etsy-title-generator" element={<Placeholder title="Etsy Title Generator" />} />
+          <Route path="/tools/etsy-listing-generator" element={<Placeholder title="Etsy Listing Generator" />} />
+          <Route path="/legal/privacy" element={<Placeholder title="Privacy Policy" />} />
+          <Route path="/legal/terms" element={<Placeholder title="Terms of Service" />} />
+          <Route path="/legal/cookies" element={<Placeholder title="Cookie Policy" />} />
+          <Route path="/legal/refund" element={<Placeholder title="Refund Policy" />} />
+          <Route path="/legal/acceptable-use" element={<Placeholder title="Acceptable Use Policy" />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
