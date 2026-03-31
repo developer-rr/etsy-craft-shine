@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Tags, FileText, Type, Package, ArrowRight } from "lucide-react";
 
@@ -12,11 +13,15 @@ interface ToolPageProps {
   seoTitle: string;
   seoContent: string[];
   relatedTools: { path: string; label: string; icon: React.ElementType }[];
+  metaTitle: string;
+  metaDescription: string;
+  path: string;
 }
 
-function ToolPageTemplate({ title, subtitle, inputPlaceholder, mockResult, steps, seoTitle, seoContent, relatedTools }: ToolPageProps) {
+function ToolPageTemplate({ title, subtitle, inputPlaceholder, mockResult, steps, seoTitle, seoContent, relatedTools, metaTitle, metaDescription, path }: ToolPageProps) {
   return (
     <Layout>
+      <SEO title={metaTitle} description={metaDescription} path={path} />
       {/* Hero */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container max-w-3xl mx-auto px-4 text-center">
@@ -139,6 +144,9 @@ export function TagGenerator() {
         "Our AI tag generator analyzes your product keywords and creates 13 perfectly optimized tags, each within the 20-character limit. The tags are designed to cover different search intents — from broad category terms to specific long-tail phrases — giving your listing the best possible chance of appearing in relevant searches."
       ]}
       relatedTools={getRelated("/tools/etsy-tag-generator")}
+      metaTitle="Free Etsy Tag Generator — 13 SEO Tags Instantly"
+      metaDescription="Generate 13 SEO-optimized Etsy tags for free. Each tag under 20 characters. Long-tail keywords for better search visibility."
+      path="/tools/etsy-tag-generator"
     />
   );
 }
@@ -168,6 +176,9 @@ export function DescriptionGenerator() {
         "Storytelling sells on Etsy. Unlike mass-market platforms, Etsy buyers value the human story behind a product. Share your creative process, the inspiration behind the piece, or what makes your materials special. This emotional connection builds trust and justifies premium pricing. Our AI description generator balances SEO optimization with authentic storytelling to create descriptions that both rank well and convert."
       ]}
       relatedTools={getRelated("/tools/etsy-description-generator")}
+      metaTitle="Free Etsy Description Generator — SEO Product Descriptions"
+      metaDescription="Create compelling Etsy product descriptions with AI. SEO-optimized, 150-300 words, with natural keyword integration. Free tool."
+      path="/tools/etsy-description-generator"
     />
   );
 }
@@ -196,6 +207,9 @@ export function TitleGenerator() {
         "Our AI title generator creates titles that maximize all 140 characters with strategically ordered keywords, natural readability, and proven Etsy SEO patterns. It analyzes your product keywords and generates titles that front-load the most important terms while maintaining a professional, clickable format."
       ]}
       relatedTools={getRelated("/tools/etsy-title-generator")}
+      metaTitle="Free Etsy Title Generator — 140-Char SEO Titles"
+      metaDescription="Generate SEO-optimized Etsy titles up to 140 characters. Front-loaded keywords, readable format, proven ranking patterns. Free tool."
+      path="/tools/etsy-title-generator"
     />
   );
 }
@@ -242,6 +256,9 @@ export function ListingGenerator() {
         "Our complete listing generator creates all three elements from a single prompt, ensuring perfect keyword consistency across your title, description, and tags. This saves time and eliminates the guesswork of trying to optimize each element separately. The result is a professionally crafted listing that's ready to publish and designed to rank."
       ]}
       relatedTools={getRelated("/tools/etsy-listing-generator")}
+      metaTitle="Free Etsy Listing Generator — Title, Description & Tags"
+      metaDescription="Generate complete Etsy listings with AI. Optimized title, description, and 13 tags from a single prompt. Free tool for Etsy sellers."
+      path="/tools/etsy-listing-generator"
     />
   );
 }

@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import HeroSection from "@/components/home/HeroSection";
 import TrustBar from "@/components/home/TrustBar";
 import ProblemSection from "@/components/home/ProblemSection";
@@ -16,7 +17,7 @@ import FinalCTA from "@/components/home/FinalCTA";
 export default function Index() {
   return (
     <Layout>
-      <HeroSection />
+      <SEO title="EtsyCraft — AI-Powered Tools for Etsy Sellers" description="Generate SEO-optimized Etsy listings and social media posts with AI. Free Chrome extensions with BYOK. Titles, descriptions, 13 tags, Instagram & Pinterest." path="/" />
       <TrustBar />
       <ProblemSection />
       <ProductsOverview />

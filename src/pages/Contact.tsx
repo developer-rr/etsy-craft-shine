@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Link } from "react-router-dom";
 import { Mail, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -6,6 +7,7 @@ import { Button } from "@/components/ui/button";
 export default function Contact() {
   return (
     <Layout>
+      <SEO title="Contact EtsyCraft — Get Support" description="Get in touch with the EtsyCraft team. Bug reports, feature requests, billing questions. Response within 24 business hours." path="/contact" />
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4">Get in Touch</h1>

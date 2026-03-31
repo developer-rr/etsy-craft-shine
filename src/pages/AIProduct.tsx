@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Check, Sparkles, Type, FileText, Tags, Layers, Sliders, Globe, MousePointerClick, PanelRight, Wand2, ClipboardCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -42,6 +43,7 @@ const faqs = [
 export default function AIProduct() {
   return (
     <Layout>
+      <SEO title="EtsyCraft AI — SEO Listing Generator for Etsy" description="Generate SEO-optimized Etsy titles, descriptions, and 13 tags with AI. Free Chrome extension with BYOK. Works inside the Etsy editor." path="/ai" />
       {/* Hero */}
       <section className="bg-gradient-to-b from-card to-background py-16 md:py-24">
         <div className="container grid md:grid-cols-2 gap-12 items-center">

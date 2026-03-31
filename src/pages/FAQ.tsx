@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Link } from "react-router-dom";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
@@ -59,6 +60,7 @@ const sections = [
 export default function FAQ() {
   return (
     <Layout>
+      <SEO title="FAQ — EtsyCraft Help & Support" description="Frequently asked questions about EtsyCraft AI and Social Engine. BYOK, pricing, supported languages, technical setup, and more." path="/faq" />
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container max-w-3xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight tracking-tight mb-4">Frequently Asked Questions</h1>

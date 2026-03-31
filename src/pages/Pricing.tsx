@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -50,6 +51,7 @@ export default function Pricing() {
 
   return (
     <Layout>
+      <SEO title="Pricing — EtsyCraft AI & Social Engine Plans" description="Simple, transparent pricing. Free plans available. EtsyCraft AI Pro $4.99/mo, Social Engine Pro $4.99/mo. 14-day free trial. BYOK." path="/pricing" />
       {/* Hero */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container text-center max-w-3xl mx-auto px-4">
