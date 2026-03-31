@@ -47,7 +47,7 @@ const App = () => (
             <Route path="/legal/terms" element={<LegalPage title="Terms of Service"><TermsContent /></LegalPage>} />
             <Route path="/legal/cookies" element={<LegalPage title="Cookie Policy"><CookiesContent /></LegalPage>} />
             <Route path="/legal/refund" element={<LegalPage title="Refund Policy"><RefundContent /></LegalPage>} />
-            <Route path="/legal/acceptable-use" element={<LegalPage title="Acceptable Use Policy" />} />
+            <Route path="/legal/acceptable-use" element={<LegalPage title="Acceptable Use Policy"><AcceptableUseContent /></LegalPage>} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
