@@ -6,6 +6,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Placeholder from "./pages/Placeholder";
+import AIProduct from "./pages/AIProduct";
+import SocialEngine from "./pages/SocialEngine";
+import Pricing from "./pages/Pricing";
 
 const queryClient = new QueryClient();
 
