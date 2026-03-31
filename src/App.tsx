@@ -11,6 +11,7 @@ import SocialEngine from "./pages/SocialEngine";
 import PrivacyContent from "./pages/legal/PrivacyContent";
 import TermsContent from "./pages/legal/TermsContent";
 import CookiesContent from "./pages/legal/CookiesContent";
+import RefundContent from "./pages/legal/RefundContent";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
