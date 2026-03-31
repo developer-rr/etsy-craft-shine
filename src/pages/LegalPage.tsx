@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 interface LegalPageProps {
   title: string;
+  children?: React.ReactNode;
 }
 
 const slugMap: Record<string, string> = {
