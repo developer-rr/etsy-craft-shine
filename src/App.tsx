@@ -38,7 +38,7 @@ const App = () => (
             <Route path="/tools/etsy-description-generator" element={<DescriptionGenerator />} />
             <Route path="/tools/etsy-title-generator" element={<TitleGenerator />} />
             <Route path="/tools/etsy-listing-generator" element={<ListingGenerator />} />
-            <Route path="/legal/privacy" element={<LegalPage title="Privacy Policy" />} />
+            <Route path="/legal/privacy" element={<LegalPage title="Privacy Policy"><PrivacyContent /></LegalPage>} />
             <Route path="/legal/terms" element={<LegalPage title="Terms of Service" />} />
             <Route path="/legal/cookies" element={<LegalPage title="Cookie Policy" />} />
             <Route path="/legal/refund" element={<LegalPage title="Refund Policy" />} />
