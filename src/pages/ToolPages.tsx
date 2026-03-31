@@ -176,6 +176,9 @@ export function DescriptionGenerator() {
         "Storytelling sells on Etsy. Unlike mass-market platforms, Etsy buyers value the human story behind a product. Share your creative process, the inspiration behind the piece, or what makes your materials special. This emotional connection builds trust and justifies premium pricing. Our AI description generator balances SEO optimization with authentic storytelling to create descriptions that both rank well and convert."
       ]}
       relatedTools={getRelated("/tools/etsy-description-generator")}
+      metaTitle="Free Etsy Description Generator — SEO Product Descriptions"
+      metaDescription="Create compelling Etsy product descriptions with AI. SEO-optimized, 150-300 words, with natural keyword integration. Free tool."
+      path="/tools/etsy-description-generator"
     />
   );
 }
