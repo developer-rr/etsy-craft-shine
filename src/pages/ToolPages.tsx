@@ -144,6 +144,9 @@ export function TagGenerator() {
         "Our AI tag generator analyzes your product keywords and creates 13 perfectly optimized tags, each within the 20-character limit. The tags are designed to cover different search intents — from broad category terms to specific long-tail phrases — giving your listing the best possible chance of appearing in relevant searches."
       ]}
       relatedTools={getRelated("/tools/etsy-tag-generator")}
+      metaTitle="Free Etsy Tag Generator — 13 SEO Tags Instantly"
+      metaDescription="Generate 13 SEO-optimized Etsy tags for free. Each tag under 20 characters. Long-tail keywords for better search visibility."
+      path="/tools/etsy-tag-generator"
     />
   );
 }
