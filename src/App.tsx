@@ -11,6 +11,7 @@ import SocialEngine from "./pages/SocialEngine";
 import PrivacyContent from "./pages/legal/PrivacyContent";
 import TermsContent from "./pages/legal/TermsContent";
 import CookiesContent from "./pages/legal/CookiesContent";
+import RefundContent from "./pages/legal/RefundContent";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
@@ -44,7 +45,7 @@ const App = () => (
             <Route path="/legal/privacy" element={<LegalPage title="Privacy Policy"><PrivacyContent /></LegalPage>} />
             <Route path="/legal/terms" element={<LegalPage title="Terms of Service"><TermsContent /></LegalPage>} />
             <Route path="/legal/cookies" element={<LegalPage title="Cookie Policy"><CookiesContent /></LegalPage>} />
-            <Route path="/legal/refund" element={<LegalPage title="Refund Policy" />} />
+            <Route path="/legal/refund" element={<LegalPage title="Refund Policy"><RefundContent /></LegalPage>} />
             <Route path="/legal/acceptable-use" element={<LegalPage title="Acceptable Use Policy" />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
