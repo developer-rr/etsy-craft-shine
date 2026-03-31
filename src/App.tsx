@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import AIProduct from "./pages/AIProduct";
 import SocialEngine from "./pages/SocialEngine";
 import PrivacyContent from "./pages/legal/PrivacyContent";
+import TermsContent from "./pages/legal/TermsContent";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
@@ -40,7 +41,7 @@ const App = () => (
             <Route path="/tools/etsy-title-generator" element={<TitleGenerator />} />
             <Route path="/tools/etsy-listing-generator" element={<ListingGenerator />} />
             <Route path="/legal/privacy" element={<LegalPage title="Privacy Policy"><PrivacyContent /></LegalPage>} />
-            <Route path="/legal/terms" element={<LegalPage title="Terms of Service" />} />
+            <Route path="/legal/terms" element={<LegalPage title="Terms of Service"><TermsContent /></LegalPage>} />
             <Route path="/legal/cookies" element={<LegalPage title="Cookie Policy" />} />
             <Route path="/legal/refund" element={<LegalPage title="Refund Policy" />} />
             <Route path="/legal/acceptable-use" element={<LegalPage title="Acceptable Use Policy" />} />
