@@ -9,6 +9,7 @@ import Placeholder from "./pages/Placeholder";
 import AIProduct from "./pages/AIProduct";
 import SocialEngine from "./pages/SocialEngine";
 import Pricing from "./pages/Pricing";
+import { TagGenerator, DescriptionGenerator, TitleGenerator, ListingGenerator } from "./pages/ToolPages";
 
 const queryClient = new QueryClient();
 
@@ -27,10 +28,10 @@ const App = () => (
           <Route path="/blog" element={<Placeholder title="Blog" />} />
           <Route path="/faq" element={<Placeholder title="FAQ" />} />
           <Route path="/contact" element={<Placeholder title="Contact" />} />
-          <Route path="/tools/etsy-tag-generator" element={<Placeholder title="Etsy Tag Generator" />} />
-          <Route path="/tools/etsy-description-generator" element={<Placeholder title="Etsy Description Generator" />} />
-          <Route path="/tools/etsy-title-generator" element={<Placeholder title="Etsy Title Generator" />} />
-          <Route path="/tools/etsy-listing-generator" element={<Placeholder title="Etsy Listing Generator" />} />
+          <Route path="/tools/etsy-tag-generator" element={<TagGenerator />} />
+          <Route path="/tools/etsy-description-generator" element={<DescriptionGenerator />} />
+          <Route path="/tools/etsy-title-generator" element={<TitleGenerator />} />
+          <Route path="/tools/etsy-listing-generator" element={<ListingGenerator />} />
           <Route path="/legal/privacy" element={<Placeholder title="Privacy Policy" />} />
           <Route path="/legal/terms" element={<Placeholder title="Terms of Service" />} />
           <Route path="/legal/cookies" element={<Placeholder title="Cookie Policy" />} />
