@@ -9,6 +9,10 @@ import Placeholder from "./pages/Placeholder";
 import AIProduct from "./pages/AIProduct";
 import SocialEngine from "./pages/SocialEngine";
 import Pricing from "./pages/Pricing";
+import About from "./pages/About";
+import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 import { TagGenerator, DescriptionGenerator, TitleGenerator, ListingGenerator } from "./pages/ToolPages";
 
 const queryClient = new QueryClient();
