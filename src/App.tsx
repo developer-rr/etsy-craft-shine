@@ -9,6 +9,10 @@ import Placeholder from "./pages/Placeholder";
 import AIProduct from "./pages/AIProduct";
 import SocialEngine from "./pages/SocialEngine";
 import Pricing from "./pages/Pricing";
+import About from "./pages/About";
+import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 import { TagGenerator, DescriptionGenerator, TitleGenerator, ListingGenerator } from "./pages/ToolPages";
 
 const queryClient = new QueryClient();
@@ -24,10 +28,10 @@ const App = () => (
           <Route path="/ai" element={<AIProduct />} />
           <Route path="/social-engine" element={<SocialEngine />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/about" element={<Placeholder title="About" />} />
-          <Route path="/blog" element={<Placeholder title="Blog" />} />
-          <Route path="/faq" element={<Placeholder title="FAQ" />} />
-          <Route path="/contact" element={<Placeholder title="Contact" />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/tools/etsy-tag-generator" element={<TagGenerator />} />
           <Route path="/tools/etsy-description-generator" element={<DescriptionGenerator />} />
           <Route path="/tools/etsy-title-generator" element={<TitleGenerator />} />
