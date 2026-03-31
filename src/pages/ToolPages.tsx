@@ -13,11 +13,15 @@ interface ToolPageProps {
   seoTitle: string;
   seoContent: string[];
   relatedTools: { path: string; label: string; icon: React.ElementType }[];
+  metaTitle: string;
+  metaDescription: string;
+  path: string;
 }
 
-function ToolPageTemplate({ title, subtitle, inputPlaceholder, mockResult, steps, seoTitle, seoContent, relatedTools }: ToolPageProps) {
+function ToolPageTemplate({ title, subtitle, inputPlaceholder, mockResult, steps, seoTitle, seoContent, relatedTools, metaTitle, metaDescription, path }: ToolPageProps) {
   return (
     <Layout>
+      <SEO title={metaTitle} description={metaDescription} path={path} />
       {/* Hero */}
       <section className="py-16 md:py-20 bg-gradient-to-b from-card to-background">
         <div className="container max-w-3xl mx-auto px-4 text-center">
