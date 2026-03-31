@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import AIProduct from "./pages/AIProduct";
 import SocialEngine from "./pages/SocialEngine";
+import PrivacyContent from "./pages/legal/PrivacyContent";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
 import FAQ from "./pages/FAQ";
