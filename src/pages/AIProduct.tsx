@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Check, Sparkles, Type, FileText, Tags, Layers, Sliders, Globe, MousePointerClick, PanelRight, Wand2, ClipboardCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";

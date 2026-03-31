@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Link } from "react-router-dom";
 import { Mail, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";

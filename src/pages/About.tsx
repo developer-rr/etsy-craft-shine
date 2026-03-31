@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
 import { Sparkles, Share2, BarChart3, Search, Mail, MapPin, ArrowRight } from "lucide-react";
 
 const ecosystem = [
