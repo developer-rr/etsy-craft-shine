@@ -43,7 +43,7 @@ const App = () => (
             <Route path="/tools/etsy-listing-generator" element={<ListingGenerator />} />
             <Route path="/legal/privacy" element={<LegalPage title="Privacy Policy"><PrivacyContent /></LegalPage>} />
             <Route path="/legal/terms" element={<LegalPage title="Terms of Service"><TermsContent /></LegalPage>} />
-            <Route path="/legal/cookies" element={<LegalPage title="Cookie Policy" />} />
+            <Route path="/legal/cookies" element={<LegalPage title="Cookie Policy"><CookiesContent /></LegalPage>} />
             <Route path="/legal/refund" element={<LegalPage title="Refund Policy" />} />
             <Route path="/legal/acceptable-use" element={<LegalPage title="Acceptable Use Policy" />} />
             <Route path="*" element={<NotFound />} />
