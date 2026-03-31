@@ -256,6 +256,9 @@ export function ListingGenerator() {
         "Our complete listing generator creates all three elements from a single prompt, ensuring perfect keyword consistency across your title, description, and tags. This saves time and eliminates the guesswork of trying to optimize each element separately. The result is a professionally crafted listing that's ready to publish and designed to rank."
       ]}
       relatedTools={getRelated("/tools/etsy-listing-generator")}
+      metaTitle="Free Etsy Listing Generator — Title, Description & Tags"
+      metaDescription="Generate complete Etsy listings with AI. Optimized title, description, and 13 tags from a single prompt. Free tool for Etsy sellers."
+      path="/tools/etsy-listing-generator"
     />
   );
 }
