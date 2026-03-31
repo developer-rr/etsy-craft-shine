@@ -6,6 +6,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Placeholder from "./pages/Placeholder";
+import AIProduct from "./pages/AIProduct";
+import SocialEngine from "./pages/SocialEngine";
+import Pricing from "./pages/Pricing";
 
 const queryClient = new QueryClient();
 
@@ -17,9 +20,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/ai" element={<Placeholder title="EtsyCraft AI" />} />
-          <Route path="/social-engine" element={<Placeholder title="Social Engine" />} />
-          <Route path="/pricing" element={<Placeholder title="Pricing" />} />
+          <Route path="/ai" element={<AIProduct />} />
+          <Route path="/social-engine" element={<SocialEngine />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/about" element={<Placeholder title="About" />} />
           <Route path="/blog" element={<Placeholder title="Blog" />} />
           <Route path="/faq" element={<Placeholder title="FAQ" />} />
