@@ -207,6 +207,9 @@ export function TitleGenerator() {
         "Our AI title generator creates titles that maximize all 140 characters with strategically ordered keywords, natural readability, and proven Etsy SEO patterns. It analyzes your product keywords and generates titles that front-load the most important terms while maintaining a professional, clickable format."
       ]}
       relatedTools={getRelated("/tools/etsy-title-generator")}
+      metaTitle="Free Etsy Title Generator — 140-Char SEO Titles"
+      metaDescription="Generate SEO-optimized Etsy titles up to 140 characters. Front-loaded keywords, readable format, proven ranking patterns. Free tool."
+      path="/tools/etsy-title-generator"
     />
   );
 }
