@@ -7,7 +7,7 @@ export default function CookiesContent() {
       <p><strong>Effective Date:</strong> March 2026</p>
 
       <h2>1. Introduction</h2>
-      <p>This Cookie &amp; Local Storage Policy explains how the EtsyCraft Chrome browser extensions — EtsyCraft AI (SEO Listing Generator) and EtsyCraft Social Engine (Social Media Content &amp; Publishing) — and the EtsyCraft website (etsycraft.com), operated by VENTOS ARQUEÁVEIS UNIPESSOAL LDA, use cookies and local storage technologies. This policy should be read in conjunction with our Privacy Policy.</p>
+      <p>This Cookie &amp; Local Storage Policy explains how the EtsyCraft Chrome browser extensions — EtsyCraft AI (SEO Listing Generator) and EtsyCraft Social Engine (Social Media Content &amp; Publishing) — and the EtsyCraft website (craftpilotapp.com), operated by VENTOS ARQUEÁVEIS UNIPESSOAL LDA, use cookies and local storage technologies. This policy should be read in conjunction with our Privacy Policy.</p>
 
       <h2>2. Cookies and Local Storage in the Extensions</h2>
       <p><strong>Important:</strong> The Extensions do not use HTTP cookies. However, they use chrome.storage.local, which is a browser storage technology that falls within the scope of Article 5(3) of the ePrivacy Directive (2002/58/EC).</p>
@@ -41,7 +41,7 @@ export default function CookiesContent() {
       <p>All storage by the Extensions qualifies for the "strictly necessary" exemption because the Extensions cannot function without stored settings, and no data is stored for analytics, advertising, profiling, or any purpose unrelated to the service you explicitly requested.</p>
       <p>Therefore, the Extensions do not require cookie consent banners or opt-in mechanisms for their local storage.</p>
 
-      <h2>5. Cookies on Our Website (etsycraft.com)</h2>
+      <h2>5. Cookies on Our Website (craftpilotapp.com)</h2>
 
       <h3>5.1 Strictly Necessary Cookies</h3>
       <p>These cookies are essential for the website to function and cannot be disabled. They include session cookies for form submissions and security tokens, and cookie consent preference storage.</p>
@@ -74,7 +74,7 @@ export default function CookiesContent() {
 
       <h2>8. Managing Cookies</h2>
       <p><strong>For the Extensions:</strong> All data is managed through the Extension's settings panel or by uninstalling the Extension.</p>
-      <p><strong>For the website:</strong> You can manage cookie preferences through the cookie consent banner on etsycraft.com. You can also manage cookies through your browser settings. Most browsers allow you to refuse cookies, delete existing cookies, and set preferences for specific websites.</p>
+      <p><strong>For the website:</strong> You can manage cookie preferences through the cookie consent banner on craftpilotapp.com. You can also manage cookies through your browser settings. Most browsers allow you to refuse cookies, delete existing cookies, and set preferences for specific websites.</p>
 
       <h2>9. Your Rights</h2>
       <p>Under the GDPR and ePrivacy framework, you have the right to:</p>

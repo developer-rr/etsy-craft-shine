@@ -116,7 +116,7 @@ export default function PrivacyContent() {
 
       <h2>6. Analytics and Tracking</h2>
       <p>The Extensions do not include any analytics or tracking code. We do not use Google Analytics, Mixpanel, Amplitude, or any similar services within the Extensions. No usage events, page views, or behavioral data are collected or transmitted by the Extensions.</p>
-      <p><em>Note: Our website (etsycraft.com) may use analytics cookies with your consent — see our Cookie Policy for details.</em></p>
+      <p><em>Note: Our website (craftpilotapp.com) may use analytics cookies with your consent — see our Cookie Policy for details.</em></p>
 
       <h2>7. BYOK (Bring Your Own Key) Model</h2>
       <p>The Extensions operate on a BYOK model, which means:</p>
