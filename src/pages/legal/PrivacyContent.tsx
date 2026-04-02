@@ -18,8 +18,8 @@ export default function PrivacyContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a>
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a>
       </p>
       <p>
         Supervisory authority: CNPD — Comissão Nacional de Proteção de Dados (<a href="https://www.cnpd.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.cnpd.pt</a>)
@@ -185,8 +185,8 @@ export default function PrivacyContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a><br />
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a><br />
         Complaints Book (Livro de Reclamações): <a href="https://www.livroreclamacoes.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.livroreclamacoes.pt</a>
       </p>
 

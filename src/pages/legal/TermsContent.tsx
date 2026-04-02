@@ -100,7 +100,7 @@ export default function TermsContent() {
       <h3>4.5 Right of Withdrawal (EU Consumers)</h3>
       <p>If you are a consumer in the European Union, you have a right to withdraw from this contract within 14 calendar days from the date of subscription, without giving any reason, in accordance with Directive 2011/83/EU.</p>
       <p>By using the Extension's paid generation features during the withdrawal period, you expressly request that performance begin immediately. You acknowledge that: (a) you have given prior express consent to the commencement of performance; (b) you acknowledge that you will lose your right of withdrawal once the service has been fully performed; and (c) you will receive confirmation of this consent on a durable medium. These are the three cumulative conditions required under Article 16(m) of Directive 2011/83/EU.</p>
-      <p>If you have not used any paid generations, you may exercise your withdrawal right by sending a clear statement to <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a>. See our Refund Policy for the model withdrawal form.</p>
+      <p>If you have not used any paid generations, you may exercise your withdrawal right by sending a clear statement to <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a>. See our Refund Policy for the model withdrawal form.</p>
 
       <h2>5. License Grant</h2>
       <p>Subject to these Terms and payment of applicable fees, the Company grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Extensions on Chrome browsers for your personal or business purposes related to managing Etsy listings and associated social media marketing.</p>
@@ -195,8 +195,8 @@ export default function TermsContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a><br />
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a><br />
         Complaints Book (Livro de Reclamações): <a href="https://www.livroreclamacoes.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.livroreclamacoes.pt</a>
       </p>
 
