@@ -80,7 +80,7 @@ export default function RefundContent() {
       <h2>5. How to Request a Refund</h2>
       <p>To request a refund, please follow these steps:</p>
       <ul>
-        <li><strong>Step 1:</strong> Send an email to <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a> with the subject line "Refund Request — EtsyCraft"</li>
+        <li><strong>Step 1:</strong> Send an email to <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a> with the subject line "Refund Request — EtsyCraft"</li>
         <li><strong>Step 2:</strong> Include your email address used for the ExtensionPay purchase</li>
         <li><strong>Step 3:</strong> Specify which Extension (EtsyCraft AI or Social Engine) and which plan</li>
         <li><strong>Step 4:</strong> Provide the reason for your refund request and your purchase date</li>
@@ -108,7 +108,7 @@ export default function RefundContent() {
       <h3>7.1 Model Withdrawal Form</h3>
       <p>In accordance with Annex I(B) of Directive 2011/83/EU, you may use the following model form to exercise your withdrawal right (this is not mandatory):</p>
       <blockquote className="border-l-4 border-primary/30 pl-4 my-4 italic">
-        "To VENTOS ARQUEÁVEIS UNIPESSOAL LDA, support@etsycraft.com: I hereby give notice that I withdraw from my contract for the provision of the following service: EtsyCraft [AI / Social Engine] subscription [plan name], ordered on [date]. Name of consumer: [your name]. Date: [date]."
+        "To VENTOS ARQUEÁVEIS UNIPESSOAL LDA, support@craftpilotapp.com: I hereby give notice that I withdraw from my contract for the provision of the following service: EtsyCraft [AI / Social Engine] subscription [plan name], ordered on [date]. Name of consumer: [your name]. Date: [date]."
       </blockquote>
 
       <h3>7.2 Portuguese Consumer Protections</h3>
@@ -117,12 +117,12 @@ export default function RefundContent() {
         <li><strong>Double reimbursement:</strong> Under Article 12 of DL 24/2014, if we fail to reimburse you within the legal deadline following a valid withdrawal, the amounts owed shall be returned in double within 15 working days.</li>
         <li><strong>Extended withdrawal for home contracts:</strong> Where a contract is concluded at the consumer's home, the withdrawal period is extended to 30 days (Article 10).</li>
       </ul>
-      <p>You may exercise your withdrawal right by sending a clear statement to <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a>.</p>
+      <p>You may exercise your withdrawal right by sending a clear statement to <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a>.</p>
 
       <h2>8. Dispute Resolution</h2>
       <p>If you are dissatisfied with our refund decision, you may:</p>
       <ul>
-        <li>Contact us again at <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a> to escalate your case</li>
+        <li>Contact us again at <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a> to escalate your case</li>
         <li>Use the European Commission's Online Dispute Resolution platform: <a href="https://ec.europa.eu/odr" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/odr</a></li>
         <li>File a complaint with the consumer protection authority in your country of residence</li>
         <li>Submit a complaint through the Electronic Complaints Book (Livro de Reclamações): <a href="https://www.livroreclamacoes.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.livroreclamacoes.pt</a></li>
@@ -135,8 +135,8 @@ export default function RefundContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a><br />
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a><br />
         Complaints Book (Livro de Reclamações): <a href="https://www.livroreclamacoes.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.livroreclamacoes.pt</a>
       </p>
 

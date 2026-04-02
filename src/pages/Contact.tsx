@@ -24,7 +24,7 @@ export default function Contact() {
                 <Mail className="w-4 h-4 text-primary" />
                 <h3 className="font-semibold text-sm">Email</h3>
               </div>
-              <a href="mailto:support@etsycraft.com" className="text-sm text-primary hover:underline">support@etsycraft.com</a>
+              <a href="mailto:support@craftpilotapp.com" className="text-sm text-primary hover:underline">support@craftpilotapp.com</a>
             </div>
             <div className="bg-surface-warm rounded-2xl border border-border p-6">
               <div className="flex items-center gap-2 mb-2">

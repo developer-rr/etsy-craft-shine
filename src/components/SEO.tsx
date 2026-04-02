@@ -6,7 +6,7 @@ interface SEOProps {
   path: string;
 }
 
-const BASE_URL = "https://etsycraft.com";
+const BASE_URL = "https://craftpilotapp.com";
 
 export default function SEO({ title, description, path }: SEOProps) {
   const url = `${BASE_URL}${path}`;

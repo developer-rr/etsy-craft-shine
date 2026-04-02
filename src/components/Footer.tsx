@@ -76,7 +76,7 @@ export default function Footer() {
 
       <div className="border-t">
         <div className="container py-4 text-center text-xs text-muted-foreground">
-          © 2026 EtsyCraft | VENTOS ARQUEÁVEIS UNIPESSOAL LDA | support@etsycraft.com
+          © 2026 EtsyCraft | VENTOS ARQUEÁVEIS UNIPESSOAL LDA | support@craftpilotapp.com
         </div>
       </div>
     </footer>

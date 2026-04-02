@@ -77,7 +77,7 @@ export default function About() {
           <div className="bg-card rounded-2xl border border-border p-8 space-y-3 text-sm text-muted-foreground">
             <p className="font-semibold text-foreground">VENTOS ARQUEÁVEIS UNIPESSOAL LDA</p>
             <p className="flex items-center justify-center gap-2"><MapPin className="w-4 h-4" /> Portugal, European Union</p>
-            <p className="flex items-center justify-center gap-2"><Mail className="w-4 h-4" /> support@etsycraft.com</p>
+            <p className="flex items-center justify-center gap-2"><Mail className="w-4 h-4" /> support@craftpilotapp.com</p>
           </div>
         </div>
       </section>

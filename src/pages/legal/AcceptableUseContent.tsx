@@ -105,7 +105,7 @@ export default function AcceptableUseContent() {
       </ul>
 
       <h2>7. Reporting Violations</h2>
-      <p>If you become aware of any use of the Extensions that violates this AUP, please report it to <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a>. We investigate all reports and take appropriate action, which may include warning, suspension, or termination of access.</p>
+      <p>If you become aware of any use of the Extensions that violates this AUP, please report it to <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a>. We investigate all reports and take appropriate action, which may include warning, suspension, or termination of access.</p>
 
       <h2>8. Enforcement</h2>
       <p>We reserve the right, at our sole discretion, to:</p>
@@ -127,8 +127,8 @@ export default function AcceptableUseContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a><br />
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a><br />
         Complaints Book (Livro de Reclamações): <a href="https://www.livroreclamacoes.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.livroreclamacoes.pt</a>
       </p>
 

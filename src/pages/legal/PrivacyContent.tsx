@@ -18,8 +18,8 @@ export default function PrivacyContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a>
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a>
       </p>
       <p>
         Supervisory authority: CNPD — Comissão Nacional de Proteção de Dados (<a href="https://www.cnpd.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">https://www.cnpd.pt</a>)
@@ -116,7 +116,7 @@ export default function PrivacyContent() {
 
       <h2>6. Analytics and Tracking</h2>
       <p>The Extensions do not include any analytics or tracking code. We do not use Google Analytics, Mixpanel, Amplitude, or any similar services within the Extensions. No usage events, page views, or behavioral data are collected or transmitted by the Extensions.</p>
-      <p><em>Note: Our website (etsycraft.com) may use analytics cookies with your consent — see our Cookie Policy for details.</em></p>
+      <p><em>Note: Our website (craftpilotapp.com) may use analytics cookies with your consent — see our Cookie Policy for details.</em></p>
 
       <h2>7. BYOK (Bring Your Own Key) Model</h2>
       <p>The Extensions operate on a BYOK model, which means:</p>
@@ -185,8 +185,8 @@ export default function PrivacyContent() {
       <p>
         VENTOS ARQUEÁVEIS UNIPESSOAL LDA<br />
         Registered in Portugal<br />
-        Email: <a href="mailto:support@etsycraft.com" className="text-primary hover:underline">support@etsycraft.com</a><br />
-        Website: <a href="https://etsycraft.com" className="text-primary hover:underline">https://etsycraft.com</a><br />
+        Email: <a href="mailto:support@craftpilotapp.com" className="text-primary hover:underline">support@craftpilotapp.com</a><br />
+        Website: <a href="https://craftpilotapp.com" className="text-primary hover:underline">https://craftpilotapp.com</a><br />
         Complaints Book (Livro de Reclamações): <a href="https://www.livroreclamacoes.pt" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">www.livroreclamacoes.pt</a>
       </p>
 
