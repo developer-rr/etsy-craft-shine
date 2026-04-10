@@ -1,5 +1,7 @@
-import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
+
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
 
 export default function HeroSection() {
   return (
@@ -17,18 +19,22 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link
-              to="/ai"
+            <a
+              href={AI_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-primary-hover transition-colors"
             >
               🚀 Get EtsyCraft AI — Free
-            </Link>
-            <Link
-              to="/social-engine"
+            </a>
+            <a
+              href={SE_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 rounded-lg border-2 border-secondary text-secondary font-semibold hover:bg-accent transition-colors"
             >
               📱 Try Social Engine — Free
-            </Link>
+            </a>
           </div>
 
           <p className="mt-4 text-xs text-muted-foreground">
@@ -44,7 +50,6 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Illustration placeholder */}
         <div className="flex items-center justify-center">
           <div className="w-full max-w-md aspect-[4/3] rounded-2xl bg-gradient-to-br from-primary/10 via-secondary/10 to-accent flex items-center justify-center">
             <span className="text-6xl">🛍️</span>

@@ -4,6 +4,8 @@ import { Check, Instagram, Image, Hash, Search, Mic2, Send, Download, MousePoint
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
+
 const platforms = [
   {
     name: "Instagram",
@@ -76,9 +78,11 @@ export default function SocialEngine() {
               Turn every Etsy product into scroll-stopping Instagram captions and Pinterest pins. Generate, customize, and publish — without leaving Etsy.
             </p>
             <div className="mt-8">
-              <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-base px-8">
-                📱 Install Social Engine — Free
-              </Button>
+              <a href={SE_LINK} target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-base px-8">
+                  📱 Install Social Engine — Free
+                </Button>
+              </a>
             </div>
             <p className="mt-3 text-xs text-muted-foreground">No credit card required • BYOK • Direct publishing included</p>
           </div>
@@ -187,9 +191,11 @@ export default function SocialEngine() {
                     </li>
                   ))}
                 </ul>
-                <Button className={plan.highlighted ? "bg-secondary hover:bg-secondary/90 text-white" : ""} variant={plan.highlighted ? "default" : "outline"} size="lg">
-                  {plan.cta}
-                </Button>
+                <a href={SE_LINK} target="_blank" rel="noopener noreferrer">
+                  <Button className={`w-full ${plan.highlighted ? "bg-secondary hover:bg-secondary/90 text-white" : ""}`} variant={plan.highlighted ? "default" : "outline"} size="lg">
+                    {plan.cta}
+                  </Button>
+                </a>
               </div>
             ))}
           </div>
@@ -218,9 +224,11 @@ export default function SocialEngine() {
         <div className="container text-center max-w-2xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to grow your social presence?</h2>
           <p className="text-muted-foreground mb-8">Turn every Etsy listing into engaging social media content.</p>
-          <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-base px-8">
-            📱 Install Social Engine — Free for Chrome
-          </Button>
+          <a href={SE_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-base px-8">
+              📱 Install Social Engine — Free for Chrome
+            </Button>
+          </a>
           <p className="mt-3 text-xs text-muted-foreground">Free forever plan available • No credit card required</p>
         </div>
       </section>

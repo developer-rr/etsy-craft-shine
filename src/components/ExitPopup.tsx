@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+
 export default function ExitPopup() {
   const [show, setShow] = useState(false);
 
@@ -16,7 +18,6 @@ export default function ExitPopup() {
       }
     };
 
-    // Delay listener so it doesn't fire immediately
     const timer = setTimeout(() => document.addEventListener("mouseout", handler), 3000);
     return () => {
       clearTimeout(timer);
@@ -33,9 +34,11 @@ export default function ExitPopup() {
         <p className="text-muted-foreground text-sm mb-6">
           Try all premium features of EtsyCraft — unlimited generations, 7 languages, direct publishing, and more.
         </p>
-        <Button size="lg" className="w-full bg-primary hover:bg-primary-hover text-primary-foreground mb-3">
-          🚀 Start Free Trial
-        </Button>
+        <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+          <Button size="lg" className="w-full bg-primary hover:bg-primary-hover text-primary-foreground mb-3">
+            🚀 Start Free Trial
+          </Button>
+        </a>
         <button onClick={() => setShow(false)} className="text-sm text-muted-foreground hover:text-foreground underline">
           No thanks, I'll stick with the free plan
         </button>

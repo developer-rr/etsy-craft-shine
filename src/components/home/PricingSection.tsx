@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
+
 const aiPlans = [
   {
     name: "Free", price: "$0", period: "forever", highlighted: false,
@@ -36,6 +39,7 @@ const sePlans = [
 export default function PricingSection() {
   const [tab, setTab] = useState<"ai" | "se">("ai");
   const plans = tab === "ai" ? aiPlans : sePlans;
+  const link = tab === "ai" ? AI_LINK : SE_LINK;
 
   return (
     <section className="py-20 bg-card">
@@ -87,13 +91,15 @@ export default function PricingSection() {
                   </li>
                 ))}
               </ul>
-              <Button
-                className={plan.highlighted ? "bg-primary hover:bg-primary-hover text-primary-foreground" : ""}
-                variant={plan.highlighted ? "default" : "outline"}
-                size="lg"
-              >
-                {plan.cta}
-              </Button>
+              <a href={link} target="_blank" rel="noopener noreferrer">
+                <Button
+                  className={`w-full ${plan.highlighted ? "bg-primary hover:bg-primary-hover text-primary-foreground" : ""}`}
+                  variant={plan.highlighted ? "default" : "outline"}
+                  size="lg"
+                >
+                  {plan.cta}
+                </Button>
+              </a>
             </div>
           ))}
         </div>

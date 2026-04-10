@@ -5,6 +5,9 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
+
 const aiPlans = [
   {
     name: "Free", price: "$0", period: "forever", highlighted: false,
@@ -48,6 +51,7 @@ const billingFaqs = [
 export default function Pricing() {
   const [tab, setTab] = useState<"ai" | "se">("ai");
   const plans = tab === "ai" ? aiPlans : sePlans;
+  const link = tab === "ai" ? AI_LINK : SE_LINK;
 
   return (
     <Layout>
@@ -107,13 +111,15 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                <Button
-                  className={plan.highlighted ? "bg-primary hover:bg-primary-hover text-primary-foreground" : ""}
-                  variant={plan.highlighted ? "default" : "outline"}
-                  size="lg"
-                >
-                  {plan.cta}
-                </Button>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <Button
+                    className={`w-full ${plan.highlighted ? "bg-primary hover:bg-primary-hover text-primary-foreground" : ""}`}
+                    variant={plan.highlighted ? "default" : "outline"}
+                    size="lg"
+                  >
+                    {plan.cta}
+                  </Button>
+                </a>
               </div>
             ))}
           </div>
@@ -148,12 +154,16 @@ export default function Pricing() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to grow your Etsy shop?</h2>
           <p className="text-muted-foreground mb-8">Start free. Upgrade when you need more power.</p>
           <div className="flex flex-wrap justify-center gap-3">
-            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
-              🚀 Get EtsyCraft AI
-            </Button>
-            <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary/5">
-              📱 Get Social Engine
-            </Button>
+            <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
+                🚀 Get EtsyCraft AI
+              </Button>
+            </a>
+            <a href={SE_LINK} target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary/5">
+                📱 Get Social Engine
+              </Button>
+            </a>
           </div>
         </div>
       </section>

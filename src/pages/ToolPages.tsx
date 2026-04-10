@@ -4,6 +4,8 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Tags, FileText, Type, Package, ArrowRight } from "lucide-react";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+
 interface ToolPageProps {
   title: string;
   subtitle: string;
@@ -83,9 +85,11 @@ function ToolPageTemplate({ title, subtitle, inputPlaceholder, mockResult, steps
         <div className="container text-center max-w-2xl mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Get unlimited generations with EtsyCraft AI</h2>
           <p className="text-muted-foreground mb-8">Install the Chrome extension and generate optimized listings directly inside the Etsy editor.</p>
-          <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground text-base px-8">
-            🚀 Install EtsyCraft AI — Free
-          </Button>
+          <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground text-base px-8">
+              🚀 Install EtsyCraft AI — Free
+            </Button>
+          </a>
           <p className="mt-3 text-xs text-muted-foreground">No credit card required • BYOK • Works with OpenAI & Anthropic</p>
         </div>
       </section>
@@ -253,11 +257,11 @@ export function ListingGenerator() {
         "On Etsy, your title, description, and tags work together as a unified SEO system. When all three elements are optimized consistently, they reinforce each other and send strong relevance signals to Etsy's search algorithm. A listing where the title says one thing and the tags target different keywords creates confusion — both for the algorithm and potential buyers.",
         "Consistency across your listing elements is key. Your title should contain your primary keywords, your description should naturally expand on those keywords with additional context, and your tags should cover variations and long-tail phrases that buyers might use. When these three elements tell the same story, Etsy's algorithm has a clear understanding of what your product is and who should see it.",
         "Many sellers optimize their titles but neglect their descriptions and tags, or vice versa. This fragmented approach leaves SEO value on the table. A complete listing generator ensures that every element is optimized together, creating a cohesive listing that maximizes your chances of appearing in relevant searches across all of Etsy's ranking factors.",
-        "Our complete listing generator creates all three elements from a single prompt, ensuring perfect keyword consistency across your title, description, and tags. This saves time and eliminates the guesswork of trying to optimize each element separately. The result is a professionally crafted listing that's ready to publish and designed to rank."
+        "Our AI listing generator creates all three elements simultaneously from a single prompt, ensuring perfect consistency. The title, description, and 13 tags are all optimized around the same core keywords while covering different search intents and long-tail variations. This holistic approach gives your listing the strongest possible SEO foundation."
       ]}
       relatedTools={getRelated("/tools/etsy-listing-generator")}
-      metaTitle="Free Etsy Listing Generator — Title, Description & Tags"
-      metaDescription="Generate complete Etsy listings with AI. Optimized title, description, and 13 tags from a single prompt. Free tool for Etsy sellers."
+      metaTitle="Free Etsy Listing Generator — Title + Description + 13 Tags"
+      metaDescription="Generate a complete Etsy listing with AI: SEO title, compelling description, and 13 optimized tags. All from one prompt. Free tool."
       path="/tools/etsy-listing-generator"
     />
   );
