@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
+
 export default function FinalCTA() {
   const [email, setEmail] = useState("");
 
@@ -13,12 +16,16 @@ export default function FinalCTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
-            🚀 Get EtsyCraft AI — Free
-          </Button>
-          <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary/10">
-            📱 Try Social Engine — Free
-          </Button>
+          <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
+              🚀 Get EtsyCraft AI — Free
+            </Button>
+          </a>
+          <a href={SE_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary/10">
+              📱 Try Social Engine — Free
+            </Button>
+          </a>
         </div>
 
         <div className="w-16 h-px bg-border mx-auto mb-12" />

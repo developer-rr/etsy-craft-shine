@@ -1,5 +1,7 @@
-import { Link } from "react-router-dom";
 import { Check } from "lucide-react";
+
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
 
 const products = [
   {
@@ -8,7 +10,7 @@ const products = [
     color: "border-primary",
     cta: "Get EtsyCraft AI",
     ctaClass: "bg-primary hover:bg-primary-hover text-primary-foreground",
-    href: "/ai",
+    href: AI_LINK,
     features: [
       "SEO-optimized titles, descriptions & tags",
       "13 tags generated per listing",
@@ -23,7 +25,7 @@ const products = [
     color: "border-secondary",
     cta: "Try Social Engine",
     ctaClass: "bg-secondary hover:bg-secondary/90 text-secondary-foreground",
-    href: "/social-engine",
+    href: SE_LINK,
     features: [
       "AI-generated social posts from listings",
       "Multi-platform scheduling",
@@ -58,12 +60,14 @@ export default function ProductsOverview() {
                   </li>
                 ))}
               </ul>
-              <Link
-                to={p.href}
+              <a
+                href={p.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`mt-8 inline-flex justify-center px-6 py-3 rounded-lg font-semibold text-sm transition-colors ${p.ctaClass}`}
               >
                 {p.cta}
-              </Link>
+              </a>
             </div>
           ))}
         </div>

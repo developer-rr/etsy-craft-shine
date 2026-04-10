@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+const SE_LINK = "https://chromewebstore.google.com/detail/etsycraft-social-engine/onnbcnlbbmcjhnlhciefmpcldfjbojnc";
+
 export default function StickyCTA() {
   const [visible, setVisible] = useState(false);
   const [dismissed, setDismissed] = useState(false);
@@ -19,12 +22,16 @@ export default function StickyCTA() {
       <div className="container max-w-6xl mx-auto px-4 py-2.5 flex items-center justify-between gap-4">
         <p className="text-sm font-medium hidden sm:block">Supercharge your Etsy listings with AI — Free</p>
         <div className="flex items-center gap-2 flex-1 sm:flex-none justify-center sm:justify-end">
-          <Button size="sm" className="bg-primary hover:bg-primary-hover text-primary-foreground text-xs h-8">
-            🚀 EtsyCraft AI
-          </Button>
-          <Button size="sm" variant="outline" className="border-secondary text-secondary text-xs h-8">
-            📱 Social Engine
-          </Button>
+          <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="sm" className="bg-primary hover:bg-primary-hover text-primary-foreground text-xs h-8">
+              🚀 EtsyCraft AI
+            </Button>
+          </a>
+          <a href={SE_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="sm" variant="outline" className="border-secondary text-secondary text-xs h-8">
+              📱 Social Engine
+            </Button>
+          </a>
           <button onClick={() => setDismissed(true)} className="ml-2 p-1 text-muted-foreground hover:text-foreground">
             <X className="w-4 h-4" />
           </button>

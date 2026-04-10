@@ -1,6 +1,8 @@
 import { Key, Sparkles, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+
 const steps = [
   { icon: Key, title: "Connect your AI key", description: "Bring your own OpenAI or Anthropic API key. You pay only for what you use — typically ~$0.0003 per generation." },
   { icon: Sparkles, title: "Generate with one click", description: "Open any Etsy listing and click Generate. EtsyCraft creates SEO-optimized titles, descriptions, and tags instantly." },
@@ -19,7 +21,6 @@ export default function HowItWorks() {
         </div>
 
         <div className="relative grid md:grid-cols-3 gap-10 md:gap-8">
-          {/* Connecting line */}
           <div className="hidden md:block absolute top-16 left-[20%] right-[20%] h-0.5 bg-border" />
 
           {steps.map((step, i) => (
@@ -37,9 +38,11 @@ export default function HowItWorks() {
         </div>
 
         <div className="text-center mt-14">
-          <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
-            🚀 Get Started — It's Free
-          </Button>
+          <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground">
+              🚀 Get Started — It's Free
+            </Button>
+          </a>
         </div>
       </div>
     </section>

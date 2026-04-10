@@ -4,6 +4,8 @@ import { Check, Sparkles, Type, FileText, Tags, Layers, Sliders, Globe, MousePoi
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+
 const features = [
   { icon: Type, title: "Smart Title Generation", desc: "AI creates SEO-optimized titles up to 140 characters, maximizing visibility while staying within Etsy's limits." },
   { icon: FileText, title: "Compelling Descriptions", desc: "Generate engaging 150–300 word descriptions that convert browsers into buyers with natural keyword integration." },
@@ -56,9 +58,11 @@ export default function AIProduct() {
               Generate optimized titles (140 chars), compelling descriptions (150–300 words), and 13 perfect SEO tags — all inside the Etsy editor.
             </p>
             <div className="mt-8">
-              <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground text-base px-8">
-                🚀 Install EtsyCraft AI — Free
-              </Button>
+              <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground text-base px-8">
+                  🚀 Install EtsyCraft AI — Free
+                </Button>
+              </a>
             </div>
             <p className="mt-3 text-xs text-muted-foreground">No credit card required • BYOK • Works with OpenAI & Anthropic</p>
           </div>
@@ -139,9 +143,11 @@ export default function AIProduct() {
                     </li>
                   ))}
                 </ul>
-                <Button className={plan.highlighted ? "bg-primary hover:bg-primary-hover text-primary-foreground" : ""} variant={plan.highlighted ? "default" : "outline"} size="lg">
-                  {plan.cta}
-                </Button>
+                <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+                  <Button className={`w-full ${plan.highlighted ? "bg-primary hover:bg-primary-hover text-primary-foreground" : ""}`} variant={plan.highlighted ? "default" : "outline"} size="lg">
+                    {plan.cta}
+                  </Button>
+                </a>
               </div>
             ))}
           </div>
@@ -170,9 +176,11 @@ export default function AIProduct() {
         <div className="container text-center max-w-2xl mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to optimize your Etsy listings?</h2>
           <p className="text-muted-foreground mb-8">Install EtsyCraft AI and start generating SEO-optimized listings in seconds.</p>
-          <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground text-base px-8">
-            🚀 Install EtsyCraft AI — Free for Chrome
-          </Button>
+          <a href={AI_LINK} target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary hover:bg-primary-hover text-primary-foreground text-base px-8">
+              🚀 Install EtsyCraft AI — Free for Chrome
+            </Button>
+          </a>
           <p className="mt-3 text-xs text-muted-foreground">Free forever plan available • No credit card required</p>
         </div>
       </section>

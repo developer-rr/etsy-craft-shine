@@ -2,6 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 
+const AI_LINK = "https://chromewebstore.google.com/detail/etsycraft-ai-%E2%80%94-seo-listin/dgjjnmnipjdcacgjdmifhiglkhpdcgkd";
+
 const products = [
   { label: "EtsyCraft AI", href: "/ai" },
   { label: "Social Engine", href: "/social-engine" },
@@ -70,12 +72,14 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <Link
-            to="/ai"
+          <a
+            href={AI_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center px-5 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:bg-primary-hover transition-colors"
           >
             Install Free
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -98,13 +102,15 @@ export default function Header() {
           ))}
           <Link to="/blog" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground py-1">Blog</Link>
           <Link to="/about" onClick={() => setMobileOpen(false)} className="block text-sm text-foreground py-1">About</Link>
-          <Link
-            to="/ai"
+          <a
+            href={AI_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMobileOpen(false)}
             className="block text-center mt-3 px-5 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-semibold"
           >
             Install Free
-          </Link>
+          </a>
         </div>
       )}
     </header>
